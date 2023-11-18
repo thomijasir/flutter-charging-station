@@ -15,37 +15,34 @@ class GasStation {
 
 List<GasStation> gasStations = [
   GasStation(
-      name: 'EV Solom\'yans\'kyi district',
-      location: const LatLng(50.403984, 30.48751),
-      price: 10,
-      image: 'assets/download.jpeg',
-      address:
-          'Kruhla St, Solom\'yans\'kyi district, Kyiv, Kyiv City, Kyiv 02000'),
+      name: 'SPKLU Trunojoyo',
+      location: const LatLng(-6.2437078, 106.783587),
+      price: 1380,
+      image: 'assets/1.jpeg',
+      address: 'Jl. Trunojoyo No.135, RT.6/RW.2, Melawai, Kebayoran Baru'),
   GasStation(
-      name: 'EV Holosiivs\'kyi district',
-      location: const LatLng(50.397693, 30.50766),
-      image: 'assets/download (1).jpeg',
-      price: 50.9,
-      address:
-          'Holosiivska, Holosiivs\'kyi district, Kyiv, Kyiv City, Kyiv 02000'),
+      name: 'SPKLU Gambir',
+      location: const LatLng(-6.1805417, 106.8301407),
+      image: 'assets/2.jpeg',
+      price: 1400,
+      address: '7, RT.7/RW.1, Gambir, Central Jakarta City, Jakarta 10110'),
   GasStation(
-      name: 'EV Pechers\'kyi district',
-      location: const LatLng(50.412434, 30.541364),
-      image: 'assets/images.jpeg',
-      price: 60.2,
-      address: '17A, Pechers\'kyi district, Kyiv, Kyiv City, Kyiv 02000'),
+      name: 'SPKLU Tebet',
+      location: const LatLng(-6.2422038, 106.8525117),
+      image: 'assets/3.jpeg',
+      price: 1500,
+      address: 'Jl. Tebet Bar., RT.10/RW.5, Tebet Bar., Kec. Tebet 12810'),
   GasStation(
-      name: 'EV Pechers\'kyi district',
-      location: const LatLng(50.438934, 30.530775),
-      image: 'assets/images (1).jpeg',
-      price: 62.1,
-      address:
-          'Shovkovychna St, Pechers\'kyi district, Kyiv, Kyiv City, Kyiv 02000'),
+      name: 'EVCuzz Charging Station',
+      location: const LatLng(-6.2214197, 106.8125567),
+      image: 'assets/4.jpeg',
+      price: 1700,
+      address: 'Jl. Gatot Subroto No.1, RT.1/RW.4, Karet Semanggi 12930'),
   GasStation(
-      name: 'EV Solom\'yans\'kyi district',
-      location: const LatLng(50.439474, 30.485271),
-      image: 'assets/images (2).jpeg',
-      price: 58.6,
+      name: 'Senayan EV Charging Station',
+      location: const LatLng(-6.2246824, 106.8039709),
+      image: 'assets/5.jpeg',
+      price: 1800,
       address:
-          'Pivdennyi Railway Station, Solom\'yans\'kyi district, Kyiv, Kyiv City, Kyiv 02000')
+          'Sequis Center, RT.5/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan 12190')
 ];

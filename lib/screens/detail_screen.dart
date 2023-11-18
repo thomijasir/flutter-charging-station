@@ -454,7 +454,7 @@ class _DetailScreenState extends State<DetailScreen>
                         color: black, fontWeight: FontWeight.bold),
                     children: [
                   TextSpan(
-                    text: '\$${widget.gasStation.price.toStringAsFixed(1)}',
+                    text: 'Rp.${widget.gasStation.price.toStringAsFixed(1)}',
                     style: roboto.copyWith(fontSize: 12.f),
                   ),
                   TextSpan(

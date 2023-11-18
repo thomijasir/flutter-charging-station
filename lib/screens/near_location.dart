@@ -406,26 +406,34 @@ class NearestLocationItem extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  Text(
-                    gasStation.name,
-                    style: roboto.copyWith(
-                        fontWeight: FontWeight.bold, fontSize: 6.f),
+                  SizedBox(
+                    width: 40.w,
+                    child: Text(
+                      gasStation.name,
+                      maxLines: 1,
+                      style: roboto.copyWith(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 6.f,
+                          overflow: TextOverflow.ellipsis),
+                    ),
                   ),
                   Row(
                     children: [
                       RichText(
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
                           text: TextSpan(
                               style: roboto.copyWith(
                                   color: blue, fontWeight: FontWeight.bold),
                               children: [
-                            TextSpan(
-                                text:
-                                    '\Rp.${NumberUtils.stdFormat(gasStation.price)}',
-                                style: roboto.copyWith(fontSize: 8.f)),
-                            TextSpan(
-                                text: '/100v',
-                                style: roboto.copyWith(fontSize: 6.f))
-                          ])),
+                                TextSpan(
+                                    text:
+                                        '\Rp.${NumberUtils.stdFormat(gasStation.price)}',
+                                    style: roboto.copyWith(fontSize: 6.f)),
+                                TextSpan(
+                                    text: '/100v',
+                                    style: roboto.copyWith(fontSize: 4.f))
+                              ])),
                       SizedBox(
                         width: 1.w,
                       ),
@@ -438,17 +446,19 @@ class NearestLocationItem extends StatelessWidget {
                         width: 1.w,
                       ),
                       RichText(
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
                           text: TextSpan(
                               style: roboto.copyWith(
                                   color: blue, fontWeight: FontWeight.bold),
                               children: [
-                            TextSpan(
-                                text: '8',
-                                style: roboto.copyWith(fontSize: 8.f)),
-                            TextSpan(
-                                text: '/10 plug',
-                                style: roboto.copyWith(fontSize: 6.f))
-                          ]))
+                                TextSpan(
+                                    text: '8',
+                                    style: roboto.copyWith(fontSize: 6.f)),
+                                TextSpan(
+                                    text: '/10 plug',
+                                    style: roboto.copyWith(fontSize: 4.f))
+                              ]))
                     ],
                   )
                 ],
